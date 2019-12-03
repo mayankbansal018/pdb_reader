@@ -8,4 +8,5 @@ msbuild src/pdb_reader.sln /p:Platform="x86"
 fixcov.exe <path_to_dll>
 
 ## Note
-Make sure pdb, & dll are present in same folder.
+- Make sure pdb, & dll are present in same folder.
+- Install VS2017 with C++ workload on your box
